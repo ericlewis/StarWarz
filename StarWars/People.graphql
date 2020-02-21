@@ -1,0 +1,10 @@
+query People {
+    allPeople {
+        edges {
+          node {
+            id
+            name
+          }
+        }
+    }
+}

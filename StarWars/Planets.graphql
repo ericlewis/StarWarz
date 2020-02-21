@@ -1,0 +1,11 @@
+query Planets {
+    allPlanets {
+        edges {
+          node {
+            id
+            name
+          }
+        }
+    }
+}
+

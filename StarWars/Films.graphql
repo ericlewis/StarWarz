@@ -1,0 +1,12 @@
+query Films {
+  allFilms {
+    edges {
+      node {
+        id
+        title
+        director
+        releaseDate
+      }
+    }
+  }
+}
