@@ -1,6 +1,6 @@
 {
   "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
-  "key.length" : 17691,
+  "key.length" : 23263,
   "key.offset" : 0,
   "key.substructure" : [
     {
@@ -6872,6 +6872,2228 @@
                               "key.namelength" : 6,
                               "key.nameoffset" : 17619,
                               "key.offset" : 17619
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key.accessibility" : "source.lang.swift.accessibility.public",
+      "key.attributes" : [
+        {
+          "key.attribute" : "source.decl.attribute.final",
+          "key.length" : 5,
+          "key.offset" : 17699
+        },
+        {
+          "key.attribute" : "source.decl.attribute.public",
+          "key.length" : 6,
+          "key.offset" : 17692
+        }
+      ],
+      "key.bodylength" : 5522,
+      "key.bodyoffset" : 17739,
+      "key.elements" : [
+        {
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 12,
+          "key.offset" : 17725
+        }
+      ],
+      "key.inheritedtypes" : [
+        {
+          "key.name" : "GraphQLQuery"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.class",
+      "key.length" : 5557,
+      "key.name" : "SpeciesQuery",
+      "key.namelength" : 12,
+      "key.nameoffset" : 17711,
+      "key.offset" : 17705,
+      "key.runtime_name" : "_TtC4main12SpeciesQuery",
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.length" : 6,
+              "key.offset" : 17794
+            }
+          ],
+          "key.doclength" : 50,
+          "key.docoffset" : 17742,
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 252,
+          "key.name" : "operationDefinition",
+          "key.namelength" : 19,
+          "key.nameoffset" : 17805,
+          "key.offset" : 17801,
+          "key.typename" : "String"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.length" : 6,
+              "key.offset" : 18057
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 37,
+          "key.name" : "operationName",
+          "key.namelength" : 13,
+          "key.nameoffset" : 18068,
+          "key.offset" : 18064,
+          "key.typename" : "String"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.length" : 6,
+              "key.offset" : 18105
+            }
+          ],
+          "key.bodylength" : 3,
+          "key.bodyoffset" : 18120,
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 12,
+          "key.name" : "init()",
+          "key.namelength" : 6,
+          "key.nameoffset" : 18112,
+          "key.offset" : 18112
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.length" : 6,
+              "key.offset" : 18128
+            }
+          ],
+          "key.bodylength" : 5090,
+          "key.bodyoffset" : 18169,
+          "key.elements" : [
+            {
+              "key.kind" : "source.lang.swift.structure.elem.typeref",
+              "key.length" : 19,
+              "key.offset" : 18148
+            }
+          ],
+          "key.inheritedtypes" : [
+            {
+              "key.name" : "GraphQLSelectionSet"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.struct",
+          "key.length" : 5125,
+          "key.name" : "Data",
+          "key.namelength" : 4,
+          "key.nameoffset" : 18142,
+          "key.offset" : 18135,
+          "key.substructure" : [
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.length" : 6,
+                  "key.offset" : 18174
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 45,
+              "key.name" : "possibleTypes",
+              "key.namelength" : 13,
+              "key.nameoffset" : 18192,
+              "key.offset" : 18181,
+              "key.typename" : "[String]"
+            },
+            {
+              "key.bodylength" : 6,
+              "key.bodyoffset" : 18219,
+              "key.elements" : [
+                {
+                  "key.kind" : "source.lang.swift.structure.elem.expr",
+                  "key.length" : 6,
+                  "key.offset" : 18219
+                }
+              ],
+              "key.kind" : "source.lang.swift.expr.array",
+              "key.length" : 8,
+              "key.namelength" : 0,
+              "key.nameoffset" : 0,
+              "key.offset" : 18218
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.length" : 6,
+                  "key.offset" : 18232
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 121,
+              "key.name" : "selections",
+              "key.namelength" : 10,
+              "key.nameoffset" : 18250,
+              "key.offset" : 18239,
+              "key.typename" : "[GraphQLSelection]"
+            },
+            {
+              "key.bodylength" : 75,
+              "key.bodyoffset" : 18284,
+              "key.elements" : [
+                {
+                  "key.kind" : "source.lang.swift.structure.elem.expr",
+                  "key.length" : 62,
+                  "key.offset" : 18291
+                }
+              ],
+              "key.kind" : "source.lang.swift.expr.array",
+              "key.length" : 77,
+              "key.namelength" : 0,
+              "key.nameoffset" : 0,
+              "key.offset" : 18283,
+              "key.substructure" : [
+                {
+                  "key.bodylength" : 48,
+                  "key.bodyoffset" : 18304,
+                  "key.kind" : "source.lang.swift.expr.call",
+                  "key.length" : 62,
+                  "key.name" : "GraphQLField",
+                  "key.namelength" : 12,
+                  "key.nameoffset" : 18291,
+                  "key.offset" : 18291,
+                  "key.substructure" : [
+                    {
+                      "key.bodylength" : 12,
+                      "key.bodyoffset" : 18304,
+                      "key.kind" : "source.lang.swift.expr.argument",
+                      "key.length" : 12,
+                      "key.namelength" : 0,
+                      "key.nameoffset" : 0,
+                      "key.offset" : 18304
+                    },
+                    {
+                      "key.bodylength" : 28,
+                      "key.bodyoffset" : 18324,
+                      "key.kind" : "source.lang.swift.expr.argument",
+                      "key.length" : 34,
+                      "key.name" : "type",
+                      "key.namelength" : 4,
+                      "key.nameoffset" : 18318,
+                      "key.offset" : 18318
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.setter_access.private",
+                  "key.length" : 12,
+                  "key.offset" : 18373
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.length" : 6,
+                  "key.offset" : 18366
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.instance",
+              "key.length" : 24,
+              "key.name" : "resultMap",
+              "key.namelength" : 9,
+              "key.nameoffset" : 18390,
+              "key.offset" : 18386,
+              "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+              "key.typename" : "ResultMap"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.length" : 6,
+                  "key.offset" : 18416
+                }
+              ],
+              "key.bodylength" : 44,
+              "key.bodyoffset" : 18457,
+              "key.kind" : "source.lang.swift.decl.function.method.instance",
+              "key.length" : 79,
+              "key.name" : "init(unsafeResultMap:)",
+              "key.namelength" : 32,
+              "key.nameoffset" : 18423,
+              "key.offset" : 18423,
+              "key.substructure" : [
+                {
+                  "key.kind" : "source.lang.swift.decl.var.parameter",
+                  "key.length" : 26,
+                  "key.name" : "unsafeResultMap",
+                  "key.namelength" : 15,
+                  "key.nameoffset" : 18428,
+                  "key.offset" : 18428,
+                  "key.typename" : "ResultMap"
+                }
+              ]
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.length" : 6,
+                  "key.offset" : 18508
+                }
+              ],
+              "key.bodylength" : 150,
+              "key.bodyoffset" : 18550,
+              "key.kind" : "source.lang.swift.decl.function.method.instance",
+              "key.length" : 186,
+              "key.name" : "init(allSpecies:)",
+              "key.namelength" : 33,
+              "key.nameoffset" : 18515,
+              "key.offset" : 18515,
+              "key.substructure" : [
+                {
+                  "key.kind" : "source.lang.swift.decl.var.parameter",
+                  "key.length" : 27,
+                  "key.name" : "allSpecies",
+                  "key.namelength" : 10,
+                  "key.nameoffset" : 18520,
+                  "key.offset" : 18520,
+                  "key.typename" : "AllSpecy?"
+                },
+                {
+                  "key.bodylength" : 127,
+                  "key.bodyoffset" : 18567,
+                  "key.kind" : "source.lang.swift.expr.call",
+                  "key.length" : 138,
+                  "key.name" : "self.init",
+                  "key.namelength" : 9,
+                  "key.nameoffset" : 18557,
+                  "key.offset" : 18557,
+                  "key.substructure" : [
+                    {
+                      "key.bodylength" : 110,
+                      "key.bodyoffset" : 18584,
+                      "key.kind" : "source.lang.swift.expr.argument",
+                      "key.length" : 127,
+                      "key.name" : "unsafeResultMap",
+                      "key.namelength" : 15,
+                      "key.nameoffset" : 18567,
+                      "key.offset" : 18567,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 108,
+                          "key.bodyoffset" : 18585,
+                          "key.elements" : [
+                            {
+                              "key.kind" : "source.lang.swift.structure.elem.expr",
+                              "key.length" : 12,
+                              "key.offset" : 18585
+                            },
+                            {
+                              "key.kind" : "source.lang.swift.structure.elem.expr",
+                              "key.length" : 6,
+                              "key.offset" : 18599
+                            },
+                            {
+                              "key.kind" : "source.lang.swift.structure.elem.expr",
+                              "key.length" : 12,
+                              "key.offset" : 18607
+                            },
+                            {
+                              "key.kind" : "source.lang.swift.structure.elem.expr",
+                              "key.length" : 72,
+                              "key.offset" : 18621
+                            }
+                          ],
+                          "key.kind" : "source.lang.swift.expr.dictionary",
+                          "key.length" : 110,
+                          "key.namelength" : 0,
+                          "key.nameoffset" : 0,
+                          "key.offset" : 18584,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 51,
+                              "key.bodyoffset" : 18641,
+                              "key.kind" : "source.lang.swift.expr.call",
+                              "key.length" : 72,
+                              "key.name" : "allSpecies.flatMap",
+                              "key.namelength" : 18,
+                              "key.nameoffset" : 18621,
+                              "key.offset" : 18621,
+                              "key.substructure" : [
+                                {
+                                  "key.bodylength" : 51,
+                                  "key.bodyoffset" : 18641,
+                                  "key.kind" : "source.lang.swift.expr.closure",
+                                  "key.length" : 53,
+                                  "key.namelength" : 0,
+                                  "key.nameoffset" : 0,
+                                  "key.offset" : 18640,
+                                  "key.substructure" : [
+                                    {
+                                      "key.kind" : "source.lang.swift.decl.var.parameter",
+                                      "key.length" : 15,
+                                      "key.name" : "value",
+                                      "key.namelength" : 0,
+                                      "key.nameoffset" : 0,
+                                      "key.offset" : 18643,
+                                      "key.typename" : "AllSpecy"
+                                    }
+                                  ],
+                                  "key.typename" : "ResultMap"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.length" : 6,
+                  "key.offset" : 18707
+                }
+              ],
+              "key.bodylength" : 215,
+              "key.bodyoffset" : 18741,
+              "key.kind" : "source.lang.swift.decl.var.instance",
+              "key.length" : 243,
+              "key.name" : "allSpecies",
+              "key.namelength" : 10,
+              "key.nameoffset" : 18718,
+              "key.offset" : 18714,
+              "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+              "key.typename" : "AllSpecy?"
+            },
+            {
+              "key.bodylength" : 31,
+              "key.bodyoffset" : 18818,
+              "key.kind" : "source.lang.swift.expr.call",
+              "key.length" : 81,
+              "key.name" : "(resultMap[\"allSpecies\"] as? ResultMap).flatMap",
+              "key.namelength" : 47,
+              "key.nameoffset" : 18769,
+              "key.offset" : 18769,
+              "key.substructure" : [
+                {
+                  "key.bodylength" : 31,
+                  "key.bodyoffset" : 18818,
+                  "key.kind" : "source.lang.swift.expr.closure",
+                  "key.length" : 33,
+                  "key.namelength" : 0,
+                  "key.nameoffset" : 0,
+                  "key.offset" : 18817,
+                  "key.substructure" : [
+                    {
+                      "key.bodylength" : 19,
+                      "key.bodyoffset" : 18828,
+                      "key.kind" : "source.lang.swift.expr.call",
+                      "key.length" : 29,
+                      "key.name" : "AllSpecy",
+                      "key.namelength" : 8,
+                      "key.nameoffset" : 18819,
+                      "key.offset" : 18819,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 2,
+                          "key.bodyoffset" : 18845,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 19,
+                          "key.name" : "unsafeResultMap",
+                          "key.namelength" : 15,
+                          "key.nameoffset" : 18828,
+                          "key.offset" : 18828
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key.bodylength" : 41,
+              "key.bodyoffset" : 18901,
+              "key.kind" : "source.lang.swift.expr.call",
+              "key.length" : 64,
+              "key.name" : "resultMap.updateValue",
+              "key.namelength" : 21,
+              "key.nameoffset" : 18879,
+              "key.offset" : 18879,
+              "key.substructure" : [
+                {
+                  "key.bodylength" : 19,
+                  "key.bodyoffset" : 18901,
+                  "key.kind" : "source.lang.swift.expr.argument",
+                  "key.length" : 19,
+                  "key.namelength" : 0,
+                  "key.nameoffset" : 0,
+                  "key.offset" : 18901
+                },
+                {
+                  "key.bodylength" : 12,
+                  "key.bodyoffset" : 18930,
+                  "key.kind" : "source.lang.swift.expr.argument",
+                  "key.length" : 20,
+                  "key.name" : "forKey",
+                  "key.namelength" : 6,
+                  "key.nameoffset" : 18922,
+                  "key.offset" : 18922
+                }
+              ]
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.length" : 6,
+                  "key.offset" : 18963
+                }
+              ],
+              "key.bodylength" : 4247,
+              "key.bodyoffset" : 19008,
+              "key.elements" : [
+                {
+                  "key.kind" : "source.lang.swift.structure.elem.typeref",
+                  "key.length" : 19,
+                  "key.offset" : 18987
+                }
+              ],
+              "key.inheritedtypes" : [
+                {
+                  "key.name" : "GraphQLSelectionSet"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.struct",
+              "key.length" : 4286,
+              "key.name" : "AllSpecy",
+              "key.namelength" : 8,
+              "key.nameoffset" : 18977,
+              "key.offset" : 18970,
+              "key.substructure" : [
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public",
+                      "key.length" : 6,
+                      "key.offset" : 19015
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.decl.var.static",
+                  "key.length" : 58,
+                  "key.name" : "possibleTypes",
+                  "key.namelength" : 13,
+                  "key.nameoffset" : 19033,
+                  "key.offset" : 19022,
+                  "key.typename" : "[String]"
+                },
+                {
+                  "key.bodylength" : 19,
+                  "key.bodyoffset" : 19060,
+                  "key.elements" : [
+                    {
+                      "key.kind" : "source.lang.swift.structure.elem.expr",
+                      "key.length" : 19,
+                      "key.offset" : 19060
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.expr.array",
+                  "key.length" : 21,
+                  "key.namelength" : 0,
+                  "key.nameoffset" : 0,
+                  "key.offset" : 19059
+                },
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public",
+                      "key.length" : 6,
+                      "key.offset" : 19088
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.decl.var.static",
+                  "key.length" : 197,
+                  "key.name" : "selections",
+                  "key.namelength" : 10,
+                  "key.nameoffset" : 19106,
+                  "key.offset" : 19095,
+                  "key.typename" : "[GraphQLSelection]"
+                },
+                {
+                  "key.bodylength" : 151,
+                  "key.bodyoffset" : 19140,
+                  "key.elements" : [
+                    {
+                      "key.kind" : "source.lang.swift.structure.elem.expr",
+                      "key.length" : 64,
+                      "key.offset" : 19149
+                    },
+                    {
+                      "key.kind" : "source.lang.swift.structure.elem.expr",
+                      "key.length" : 60,
+                      "key.offset" : 19223
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.expr.array",
+                  "key.length" : 153,
+                  "key.namelength" : 0,
+                  "key.nameoffset" : 0,
+                  "key.offset" : 19139,
+                  "key.substructure" : [
+                    {
+                      "key.bodylength" : 50,
+                      "key.bodyoffset" : 19162,
+                      "key.kind" : "source.lang.swift.expr.call",
+                      "key.length" : 64,
+                      "key.name" : "GraphQLField",
+                      "key.namelength" : 12,
+                      "key.nameoffset" : 19149,
+                      "key.offset" : 19149,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 12,
+                          "key.bodyoffset" : 19162,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 12,
+                          "key.namelength" : 0,
+                          "key.nameoffset" : 0,
+                          "key.offset" : 19162
+                        },
+                        {
+                          "key.bodylength" : 30,
+                          "key.bodyoffset" : 19182,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 36,
+                          "key.name" : "type",
+                          "key.namelength" : 4,
+                          "key.nameoffset" : 19176,
+                          "key.offset" : 19176
+                        }
+                      ]
+                    },
+                    {
+                      "key.bodylength" : 46,
+                      "key.bodyoffset" : 19236,
+                      "key.kind" : "source.lang.swift.expr.call",
+                      "key.length" : 60,
+                      "key.name" : "GraphQLField",
+                      "key.namelength" : 12,
+                      "key.nameoffset" : 19223,
+                      "key.offset" : 19223,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 7,
+                          "key.bodyoffset" : 19236,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 7,
+                          "key.namelength" : 0,
+                          "key.nameoffset" : 0,
+                          "key.offset" : 19236
+                        },
+                        {
+                          "key.bodylength" : 31,
+                          "key.bodyoffset" : 19251,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 37,
+                          "key.name" : "type",
+                          "key.namelength" : 4,
+                          "key.nameoffset" : 19245,
+                          "key.offset" : 19245
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.setter_access.private",
+                      "key.length" : 12,
+                      "key.offset" : 19307
+                    },
+                    {
+                      "key.attribute" : "source.decl.attribute.public",
+                      "key.length" : 6,
+                      "key.offset" : 19300
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.decl.var.instance",
+                  "key.length" : 24,
+                  "key.name" : "resultMap",
+                  "key.namelength" : 9,
+                  "key.nameoffset" : 19324,
+                  "key.offset" : 19320,
+                  "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+                  "key.typename" : "ResultMap"
+                },
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public",
+                      "key.length" : 6,
+                      "key.offset" : 19352
+                    }
+                  ],
+                  "key.bodylength" : 48,
+                  "key.bodyoffset" : 19393,
+                  "key.kind" : "source.lang.swift.decl.function.method.instance",
+                  "key.length" : 83,
+                  "key.name" : "init(unsafeResultMap:)",
+                  "key.namelength" : 32,
+                  "key.nameoffset" : 19359,
+                  "key.offset" : 19359,
+                  "key.substructure" : [
+                    {
+                      "key.kind" : "source.lang.swift.decl.var.parameter",
+                      "key.length" : 26,
+                      "key.name" : "unsafeResultMap",
+                      "key.namelength" : 15,
+                      "key.nameoffset" : 19364,
+                      "key.offset" : 19364,
+                      "key.typename" : "ResultMap"
+                    }
+                  ]
+                },
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public",
+                      "key.length" : 6,
+                      "key.offset" : 19450
+                    }
+                  ],
+                  "key.bodylength" : 253,
+                  "key.bodyoffset" : 19486,
+                  "key.kind" : "source.lang.swift.decl.function.method.instance",
+                  "key.length" : 283,
+                  "key.name" : "init(edges:)",
+                  "key.namelength" : 27,
+                  "key.nameoffset" : 19457,
+                  "key.offset" : 19457,
+                  "key.substructure" : [
+                    {
+                      "key.kind" : "source.lang.swift.decl.var.parameter",
+                      "key.length" : 21,
+                      "key.name" : "edges",
+                      "key.namelength" : 5,
+                      "key.nameoffset" : 19462,
+                      "key.offset" : 19462,
+                      "key.typename" : "[Edge?]?"
+                    },
+                    {
+                      "key.bodylength" : 226,
+                      "key.bodyoffset" : 19505,
+                      "key.kind" : "source.lang.swift.expr.call",
+                      "key.length" : 237,
+                      "key.name" : "self.init",
+                      "key.namelength" : 9,
+                      "key.nameoffset" : 19495,
+                      "key.offset" : 19495,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 209,
+                          "key.bodyoffset" : 19522,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 226,
+                          "key.name" : "unsafeResultMap",
+                          "key.namelength" : 15,
+                          "key.nameoffset" : 19505,
+                          "key.offset" : 19505,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 207,
+                              "key.bodyoffset" : 19523,
+                              "key.elements" : [
+                                {
+                                  "key.kind" : "source.lang.swift.structure.elem.expr",
+                                  "key.length" : 12,
+                                  "key.offset" : 19523
+                                },
+                                {
+                                  "key.kind" : "source.lang.swift.structure.elem.expr",
+                                  "key.length" : 19,
+                                  "key.offset" : 19537
+                                },
+                                {
+                                  "key.kind" : "source.lang.swift.structure.elem.expr",
+                                  "key.length" : 7,
+                                  "key.offset" : 19558
+                                },
+                                {
+                                  "key.kind" : "source.lang.swift.structure.elem.expr",
+                                  "key.length" : 163,
+                                  "key.offset" : 19567
+                                }
+                              ],
+                              "key.kind" : "source.lang.swift.expr.dictionary",
+                              "key.length" : 209,
+                              "key.namelength" : 0,
+                              "key.nameoffset" : 0,
+                              "key.offset" : 19522,
+                              "key.substructure" : [
+                                {
+                                  "key.bodylength" : 147,
+                                  "key.bodyoffset" : 19582,
+                                  "key.kind" : "source.lang.swift.expr.call",
+                                  "key.length" : 163,
+                                  "key.name" : "edges.flatMap",
+                                  "key.namelength" : 13,
+                                  "key.nameoffset" : 19567,
+                                  "key.offset" : 19567,
+                                  "key.substructure" : [
+                                    {
+                                      "key.bodylength" : 147,
+                                      "key.bodyoffset" : 19582,
+                                      "key.kind" : "source.lang.swift.expr.closure",
+                                      "key.length" : 149,
+                                      "key.namelength" : 0,
+                                      "key.nameoffset" : 0,
+                                      "key.offset" : 19581,
+                                      "key.substructure" : [
+                                        {
+                                          "key.kind" : "source.lang.swift.decl.var.parameter",
+                                          "key.length" : 14,
+                                          "key.name" : "value",
+                                          "key.namelength" : 0,
+                                          "key.nameoffset" : 0,
+                                          "key.offset" : 19584,
+                                          "key.typename" : "[Edge?]"
+                                        },
+                                        {
+                                          "key.bodylength" : 97,
+                                          "key.bodyoffset" : 19630,
+                                          "key.kind" : "source.lang.swift.expr.call",
+                                          "key.length" : 109,
+                                          "key.name" : "value.map",
+                                          "key.namelength" : 9,
+                                          "key.nameoffset" : 19619,
+                                          "key.offset" : 19619,
+                                          "key.substructure" : [
+                                            {
+                                              "key.bodylength" : 97,
+                                              "key.bodyoffset" : 19630,
+                                              "key.kind" : "source.lang.swift.expr.closure",
+                                              "key.length" : 99,
+                                              "key.namelength" : 0,
+                                              "key.nameoffset" : 0,
+                                              "key.offset" : 19629,
+                                              "key.substructure" : [
+                                                {
+                                                  "key.kind" : "source.lang.swift.decl.var.parameter",
+                                                  "key.length" : 12,
+                                                  "key.name" : "value",
+                                                  "key.namelength" : 0,
+                                                  "key.nameoffset" : 0,
+                                                  "key.offset" : 19632,
+                                                  "key.typename" : "Edge?"
+                                                },
+                                                {
+                                                  "key.bodylength" : 47,
+                                                  "key.bodyoffset" : 19678,
+                                                  "key.kind" : "source.lang.swift.expr.call",
+                                                  "key.length" : 63,
+                                                  "key.name" : "value.flatMap",
+                                                  "key.namelength" : 13,
+                                                  "key.nameoffset" : 19663,
+                                                  "key.offset" : 19663,
+                                                  "key.substructure" : [
+                                                    {
+                                                      "key.bodylength" : 47,
+                                                      "key.bodyoffset" : 19678,
+                                                      "key.kind" : "source.lang.swift.expr.closure",
+                                                      "key.length" : 49,
+                                                      "key.namelength" : 0,
+                                                      "key.nameoffset" : 0,
+                                                      "key.offset" : 19677,
+                                                      "key.substructure" : [
+                                                        {
+                                                          "key.kind" : "source.lang.swift.decl.var.parameter",
+                                                          "key.length" : 11,
+                                                          "key.name" : "value",
+                                                          "key.namelength" : 0,
+                                                          "key.nameoffset" : 0,
+                                                          "key.offset" : 19680,
+                                                          "key.typename" : "Edge"
+                                                        }
+                                                      ],
+                                                      "key.typename" : "ResultMap"
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "key.typename" : "ResultMap?"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "key.typename" : "[ResultMap?]"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public",
+                      "key.length" : 6,
+                      "key.offset" : 19748
+                    }
+                  ],
+                  "key.bodylength" : 172,
+                  "key.bodyoffset" : 19779,
+                  "key.kind" : "source.lang.swift.decl.var.instance",
+                  "key.length" : 197,
+                  "key.name" : "__typename",
+                  "key.namelength" : 10,
+                  "key.nameoffset" : 19759,
+                  "key.offset" : 19755,
+                  "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+                  "key.typename" : "String"
+                },
+                {
+                  "key.bodylength" : 30,
+                  "key.bodyoffset" : 19903,
+                  "key.kind" : "source.lang.swift.expr.call",
+                  "key.length" : 53,
+                  "key.name" : "resultMap.updateValue",
+                  "key.namelength" : 21,
+                  "key.nameoffset" : 19881,
+                  "key.offset" : 19881,
+                  "key.substructure" : [
+                    {
+                      "key.bodylength" : 8,
+                      "key.bodyoffset" : 19903,
+                      "key.kind" : "source.lang.swift.expr.argument",
+                      "key.length" : 8,
+                      "key.namelength" : 0,
+                      "key.nameoffset" : 0,
+                      "key.offset" : 19903
+                    },
+                    {
+                      "key.bodylength" : 12,
+                      "key.bodyoffset" : 19921,
+                      "key.kind" : "source.lang.swift.expr.argument",
+                      "key.length" : 20,
+                      "key.name" : "forKey",
+                      "key.namelength" : 6,
+                      "key.nameoffset" : 19913,
+                      "key.offset" : 19913
+                    }
+                  ]
+                },
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public",
+                      "key.length" : 6,
+                      "key.offset" : 19987
+                    }
+                  ],
+                  "key.bodylength" : 498,
+                  "key.bodyoffset" : 20015,
+                  "key.doclength" : 21,
+                  "key.docoffset" : 19960,
+                  "key.kind" : "source.lang.swift.decl.var.instance",
+                  "key.length" : 520,
+                  "key.name" : "edges",
+                  "key.namelength" : 5,
+                  "key.nameoffset" : 19998,
+                  "key.offset" : 19994,
+                  "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+                  "key.typename" : "[Edge?]?"
+                },
+                {
+                  "key.bodylength" : 160,
+                  "key.bodyoffset" : 20094,
+                  "key.kind" : "source.lang.swift.expr.call",
+                  "key.length" : 208,
+                  "key.name" : "(resultMap[\"edges\"] as? [ResultMap?]).flatMap",
+                  "key.namelength" : 45,
+                  "key.nameoffset" : 20047,
+                  "key.offset" : 20047,
+                  "key.substructure" : [
+                    {
+                      "key.bodylength" : 160,
+                      "key.bodyoffset" : 20094,
+                      "key.kind" : "source.lang.swift.expr.closure",
+                      "key.length" : 162,
+                      "key.namelength" : 0,
+                      "key.nameoffset" : 0,
+                      "key.offset" : 20093,
+                      "key.substructure" : [
+                        {
+                          "key.kind" : "source.lang.swift.decl.var.parameter",
+                          "key.length" : 19,
+                          "key.name" : "value",
+                          "key.namelength" : 0,
+                          "key.nameoffset" : 0,
+                          "key.offset" : 20096,
+                          "key.typename" : "[ResultMap?]"
+                        },
+                        {
+                          "key.bodylength" : 110,
+                          "key.bodyoffset" : 20142,
+                          "key.kind" : "source.lang.swift.expr.call",
+                          "key.length" : 122,
+                          "key.name" : "value.map",
+                          "key.namelength" : 9,
+                          "key.nameoffset" : 20131,
+                          "key.offset" : 20131,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 110,
+                              "key.bodyoffset" : 20142,
+                              "key.kind" : "source.lang.swift.expr.closure",
+                              "key.length" : 112,
+                              "key.namelength" : 0,
+                              "key.nameoffset" : 0,
+                              "key.offset" : 20141,
+                              "key.substructure" : [
+                                {
+                                  "key.kind" : "source.lang.swift.decl.var.parameter",
+                                  "key.length" : 17,
+                                  "key.name" : "value",
+                                  "key.namelength" : 0,
+                                  "key.nameoffset" : 0,
+                                  "key.offset" : 20144,
+                                  "key.typename" : "ResultMap?"
+                                },
+                                {
+                                  "key.bodylength" : 60,
+                                  "key.bodyoffset" : 20190,
+                                  "key.kind" : "source.lang.swift.expr.call",
+                                  "key.length" : 76,
+                                  "key.name" : "value.flatMap",
+                                  "key.namelength" : 13,
+                                  "key.nameoffset" : 20175,
+                                  "key.offset" : 20175,
+                                  "key.substructure" : [
+                                    {
+                                      "key.bodylength" : 60,
+                                      "key.bodyoffset" : 20190,
+                                      "key.kind" : "source.lang.swift.expr.closure",
+                                      "key.length" : 62,
+                                      "key.namelength" : 0,
+                                      "key.nameoffset" : 0,
+                                      "key.offset" : 20189,
+                                      "key.substructure" : [
+                                        {
+                                          "key.kind" : "source.lang.swift.decl.var.parameter",
+                                          "key.length" : 16,
+                                          "key.name" : "value",
+                                          "key.namelength" : 0,
+                                          "key.nameoffset" : 0,
+                                          "key.offset" : 20192,
+                                          "key.typename" : "ResultMap"
+                                        },
+                                        {
+                                          "key.bodylength" : 22,
+                                          "key.bodyoffset" : 20226,
+                                          "key.kind" : "source.lang.swift.expr.call",
+                                          "key.length" : 28,
+                                          "key.name" : "Edge",
+                                          "key.namelength" : 4,
+                                          "key.nameoffset" : 20221,
+                                          "key.offset" : 20221,
+                                          "key.substructure" : [
+                                            {
+                                              "key.bodylength" : 5,
+                                              "key.bodyoffset" : 20243,
+                                              "key.kind" : "source.lang.swift.expr.argument",
+                                              "key.length" : 22,
+                                              "key.name" : "unsafeResultMap",
+                                              "key.namelength" : 15,
+                                              "key.nameoffset" : 20226,
+                                              "key.offset" : 20226
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "key.typename" : "Edge"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "key.typename" : "Edge?"
+                            }
+                          ]
+                        }
+                      ],
+                      "key.typename" : "[Edge?]"
+                    }
+                  ]
+                },
+                {
+                  "key.bodylength" : 183,
+                  "key.bodyoffset" : 20312,
+                  "key.kind" : "source.lang.swift.expr.call",
+                  "key.length" : 206,
+                  "key.name" : "resultMap.updateValue",
+                  "key.namelength" : 21,
+                  "key.nameoffset" : 20290,
+                  "key.offset" : 20290,
+                  "key.substructure" : [
+                    {
+                      "key.bodylength" : 166,
+                      "key.bodyoffset" : 20312,
+                      "key.kind" : "source.lang.swift.expr.argument",
+                      "key.length" : 166,
+                      "key.namelength" : 0,
+                      "key.nameoffset" : 0,
+                      "key.offset" : 20312,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 147,
+                          "key.bodyoffset" : 20330,
+                          "key.kind" : "source.lang.swift.expr.call",
+                          "key.length" : 166,
+                          "key.name" : "newValue.flatMap",
+                          "key.namelength" : 16,
+                          "key.nameoffset" : 20312,
+                          "key.offset" : 20312,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 147,
+                              "key.bodyoffset" : 20330,
+                              "key.kind" : "source.lang.swift.expr.closure",
+                              "key.length" : 149,
+                              "key.namelength" : 0,
+                              "key.nameoffset" : 0,
+                              "key.offset" : 20329,
+                              "key.substructure" : [
+                                {
+                                  "key.kind" : "source.lang.swift.decl.var.parameter",
+                                  "key.length" : 14,
+                                  "key.name" : "value",
+                                  "key.namelength" : 0,
+                                  "key.nameoffset" : 0,
+                                  "key.offset" : 20332,
+                                  "key.typename" : "[Edge?]"
+                                },
+                                {
+                                  "key.bodylength" : 97,
+                                  "key.bodyoffset" : 20378,
+                                  "key.kind" : "source.lang.swift.expr.call",
+                                  "key.length" : 109,
+                                  "key.name" : "value.map",
+                                  "key.namelength" : 9,
+                                  "key.nameoffset" : 20367,
+                                  "key.offset" : 20367,
+                                  "key.substructure" : [
+                                    {
+                                      "key.bodylength" : 97,
+                                      "key.bodyoffset" : 20378,
+                                      "key.kind" : "source.lang.swift.expr.closure",
+                                      "key.length" : 99,
+                                      "key.namelength" : 0,
+                                      "key.nameoffset" : 0,
+                                      "key.offset" : 20377,
+                                      "key.substructure" : [
+                                        {
+                                          "key.kind" : "source.lang.swift.decl.var.parameter",
+                                          "key.length" : 12,
+                                          "key.name" : "value",
+                                          "key.namelength" : 0,
+                                          "key.nameoffset" : 0,
+                                          "key.offset" : 20380,
+                                          "key.typename" : "Edge?"
+                                        },
+                                        {
+                                          "key.bodylength" : 47,
+                                          "key.bodyoffset" : 20426,
+                                          "key.kind" : "source.lang.swift.expr.call",
+                                          "key.length" : 63,
+                                          "key.name" : "value.flatMap",
+                                          "key.namelength" : 13,
+                                          "key.nameoffset" : 20411,
+                                          "key.offset" : 20411,
+                                          "key.substructure" : [
+                                            {
+                                              "key.bodylength" : 47,
+                                              "key.bodyoffset" : 20426,
+                                              "key.kind" : "source.lang.swift.expr.closure",
+                                              "key.length" : 49,
+                                              "key.namelength" : 0,
+                                              "key.nameoffset" : 0,
+                                              "key.offset" : 20425,
+                                              "key.substructure" : [
+                                                {
+                                                  "key.kind" : "source.lang.swift.decl.var.parameter",
+                                                  "key.length" : 11,
+                                                  "key.name" : "value",
+                                                  "key.namelength" : 0,
+                                                  "key.nameoffset" : 0,
+                                                  "key.offset" : 20428,
+                                                  "key.typename" : "Edge"
+                                                }
+                                              ],
+                                              "key.typename" : "ResultMap"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "key.typename" : "ResultMap?"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "key.typename" : "[ResultMap?]"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key.bodylength" : 7,
+                      "key.bodyoffset" : 20488,
+                      "key.kind" : "source.lang.swift.expr.argument",
+                      "key.length" : 15,
+                      "key.name" : "forKey",
+                      "key.namelength" : 6,
+                      "key.nameoffset" : 20480,
+                      "key.offset" : 20480
+                    }
+                  ]
+                },
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public",
+                      "key.length" : 6,
+                      "key.offset" : 20522
+                    }
+                  ],
+                  "key.bodylength" : 2686,
+                  "key.bodyoffset" : 20563,
+                  "key.elements" : [
+                    {
+                      "key.kind" : "source.lang.swift.structure.elem.typeref",
+                      "key.length" : 19,
+                      "key.offset" : 20542
+                    }
+                  ],
+                  "key.inheritedtypes" : [
+                    {
+                      "key.name" : "GraphQLSelectionSet"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.decl.struct",
+                  "key.length" : 2721,
+                  "key.name" : "Edge",
+                  "key.namelength" : 4,
+                  "key.nameoffset" : 20536,
+                  "key.offset" : 20529,
+                  "key.substructure" : [
+                    {
+                      "key.accessibility" : "source.lang.swift.accessibility.public",
+                      "key.attributes" : [
+                        {
+                          "key.attribute" : "source.decl.attribute.public",
+                          "key.length" : 6,
+                          "key.offset" : 20572
+                        }
+                      ],
+                      "key.kind" : "source.lang.swift.decl.var.static",
+                      "key.length" : 52,
+                      "key.name" : "possibleTypes",
+                      "key.namelength" : 13,
+                      "key.nameoffset" : 20590,
+                      "key.offset" : 20579,
+                      "key.typename" : "[String]"
+                    },
+                    {
+                      "key.bodylength" : 13,
+                      "key.bodyoffset" : 20617,
+                      "key.elements" : [
+                        {
+                          "key.kind" : "source.lang.swift.structure.elem.expr",
+                          "key.length" : 13,
+                          "key.offset" : 20617
+                        }
+                      ],
+                      "key.kind" : "source.lang.swift.expr.array",
+                      "key.length" : 15,
+                      "key.namelength" : 0,
+                      "key.nameoffset" : 0,
+                      "key.offset" : 20616
+                    },
+                    {
+                      "key.accessibility" : "source.lang.swift.accessibility.public",
+                      "key.attributes" : [
+                        {
+                          "key.attribute" : "source.decl.attribute.public",
+                          "key.length" : 6,
+                          "key.offset" : 20641
+                        }
+                      ],
+                      "key.kind" : "source.lang.swift.decl.var.static",
+                      "key.length" : 195,
+                      "key.name" : "selections",
+                      "key.namelength" : 10,
+                      "key.nameoffset" : 20659,
+                      "key.offset" : 20648,
+                      "key.typename" : "[GraphQLSelection]"
+                    },
+                    {
+                      "key.bodylength" : 149,
+                      "key.bodyoffset" : 20693,
+                      "key.elements" : [
+                        {
+                          "key.kind" : "source.lang.swift.structure.elem.expr",
+                          "key.length" : 64,
+                          "key.offset" : 20704
+                        },
+                        {
+                          "key.kind" : "source.lang.swift.structure.elem.expr",
+                          "key.length" : 52,
+                          "key.offset" : 20780
+                        }
+                      ],
+                      "key.kind" : "source.lang.swift.expr.array",
+                      "key.length" : 151,
+                      "key.namelength" : 0,
+                      "key.nameoffset" : 0,
+                      "key.offset" : 20692,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 50,
+                          "key.bodyoffset" : 20717,
+                          "key.kind" : "source.lang.swift.expr.call",
+                          "key.length" : 64,
+                          "key.name" : "GraphQLField",
+                          "key.namelength" : 12,
+                          "key.nameoffset" : 20704,
+                          "key.offset" : 20704,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 12,
+                              "key.bodyoffset" : 20717,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 12,
+                              "key.namelength" : 0,
+                              "key.nameoffset" : 0,
+                              "key.offset" : 20717
+                            },
+                            {
+                              "key.bodylength" : 30,
+                              "key.bodyoffset" : 20737,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 36,
+                              "key.name" : "type",
+                              "key.namelength" : 4,
+                              "key.nameoffset" : 20731,
+                              "key.offset" : 20731
+                            }
+                          ]
+                        },
+                        {
+                          "key.bodylength" : 38,
+                          "key.bodyoffset" : 20793,
+                          "key.kind" : "source.lang.swift.expr.call",
+                          "key.length" : 52,
+                          "key.name" : "GraphQLField",
+                          "key.namelength" : 12,
+                          "key.nameoffset" : 20780,
+                          "key.offset" : 20780,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 6,
+                              "key.bodyoffset" : 20793,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 6,
+                              "key.namelength" : 0,
+                              "key.nameoffset" : 0,
+                              "key.offset" : 20793
+                            },
+                            {
+                              "key.bodylength" : 24,
+                              "key.bodyoffset" : 20807,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 30,
+                              "key.name" : "type",
+                              "key.namelength" : 4,
+                              "key.nameoffset" : 20801,
+                              "key.offset" : 20801
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key.accessibility" : "source.lang.swift.accessibility.public",
+                      "key.attributes" : [
+                        {
+                          "key.attribute" : "source.decl.attribute.setter_access.private",
+                          "key.length" : 12,
+                          "key.offset" : 20860
+                        },
+                        {
+                          "key.attribute" : "source.decl.attribute.public",
+                          "key.length" : 6,
+                          "key.offset" : 20853
+                        }
+                      ],
+                      "key.kind" : "source.lang.swift.decl.var.instance",
+                      "key.length" : 24,
+                      "key.name" : "resultMap",
+                      "key.namelength" : 9,
+                      "key.nameoffset" : 20877,
+                      "key.offset" : 20873,
+                      "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+                      "key.typename" : "ResultMap"
+                    },
+                    {
+                      "key.accessibility" : "source.lang.swift.accessibility.public",
+                      "key.attributes" : [
+                        {
+                          "key.attribute" : "source.decl.attribute.public",
+                          "key.length" : 6,
+                          "key.offset" : 20907
+                        }
+                      ],
+                      "key.bodylength" : 52,
+                      "key.bodyoffset" : 20948,
+                      "key.kind" : "source.lang.swift.decl.function.method.instance",
+                      "key.length" : 87,
+                      "key.name" : "init(unsafeResultMap:)",
+                      "key.namelength" : 32,
+                      "key.nameoffset" : 20914,
+                      "key.offset" : 20914,
+                      "key.substructure" : [
+                        {
+                          "key.kind" : "source.lang.swift.decl.var.parameter",
+                          "key.length" : 26,
+                          "key.name" : "unsafeResultMap",
+                          "key.namelength" : 15,
+                          "key.nameoffset" : 20919,
+                          "key.offset" : 20919,
+                          "key.typename" : "ResultMap"
+                        }
+                      ]
+                    },
+                    {
+                      "key.accessibility" : "source.lang.swift.accessibility.public",
+                      "key.attributes" : [
+                        {
+                          "key.attribute" : "source.decl.attribute.public",
+                          "key.length" : 6,
+                          "key.offset" : 21011
+                        }
+                      ],
+                      "key.bodylength" : 149,
+                      "key.bodyoffset" : 21043,
+                      "key.kind" : "source.lang.swift.decl.function.method.instance",
+                      "key.length" : 175,
+                      "key.name" : "init(node:)",
+                      "key.namelength" : 23,
+                      "key.nameoffset" : 21018,
+                      "key.offset" : 21018,
+                      "key.substructure" : [
+                        {
+                          "key.kind" : "source.lang.swift.decl.var.parameter",
+                          "key.length" : 17,
+                          "key.name" : "node",
+                          "key.namelength" : 4,
+                          "key.nameoffset" : 21023,
+                          "key.offset" : 21023,
+                          "key.typename" : "Node?"
+                        },
+                        {
+                          "key.bodylength" : 118,
+                          "key.bodyoffset" : 21064,
+                          "key.kind" : "source.lang.swift.expr.call",
+                          "key.length" : 129,
+                          "key.name" : "self.init",
+                          "key.namelength" : 9,
+                          "key.nameoffset" : 21054,
+                          "key.offset" : 21054,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 101,
+                              "key.bodyoffset" : 21081,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 118,
+                              "key.name" : "unsafeResultMap",
+                              "key.namelength" : 15,
+                              "key.nameoffset" : 21064,
+                              "key.offset" : 21064,
+                              "key.substructure" : [
+                                {
+                                  "key.bodylength" : 99,
+                                  "key.bodyoffset" : 21082,
+                                  "key.elements" : [
+                                    {
+                                      "key.kind" : "source.lang.swift.structure.elem.expr",
+                                      "key.length" : 12,
+                                      "key.offset" : 21082
+                                    },
+                                    {
+                                      "key.kind" : "source.lang.swift.structure.elem.expr",
+                                      "key.length" : 13,
+                                      "key.offset" : 21096
+                                    },
+                                    {
+                                      "key.kind" : "source.lang.swift.structure.elem.expr",
+                                      "key.length" : 6,
+                                      "key.offset" : 21111
+                                    },
+                                    {
+                                      "key.kind" : "source.lang.swift.structure.elem.expr",
+                                      "key.length" : 62,
+                                      "key.offset" : 21119
+                                    }
+                                  ],
+                                  "key.kind" : "source.lang.swift.expr.dictionary",
+                                  "key.length" : 101,
+                                  "key.namelength" : 0,
+                                  "key.nameoffset" : 0,
+                                  "key.offset" : 21081,
+                                  "key.substructure" : [
+                                    {
+                                      "key.bodylength" : 47,
+                                      "key.bodyoffset" : 21133,
+                                      "key.kind" : "source.lang.swift.expr.call",
+                                      "key.length" : 62,
+                                      "key.name" : "node.flatMap",
+                                      "key.namelength" : 12,
+                                      "key.nameoffset" : 21119,
+                                      "key.offset" : 21119,
+                                      "key.substructure" : [
+                                        {
+                                          "key.bodylength" : 47,
+                                          "key.bodyoffset" : 21133,
+                                          "key.kind" : "source.lang.swift.expr.closure",
+                                          "key.length" : 49,
+                                          "key.namelength" : 0,
+                                          "key.nameoffset" : 0,
+                                          "key.offset" : 21132,
+                                          "key.substructure" : [
+                                            {
+                                              "key.kind" : "source.lang.swift.decl.var.parameter",
+                                              "key.length" : 11,
+                                              "key.name" : "value",
+                                              "key.namelength" : 0,
+                                              "key.nameoffset" : 0,
+                                              "key.offset" : 21135,
+                                              "key.typename" : "Node"
+                                            }
+                                          ],
+                                          "key.typename" : "ResultMap"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key.accessibility" : "source.lang.swift.accessibility.public",
+                      "key.attributes" : [
+                        {
+                          "key.attribute" : "source.decl.attribute.public",
+                          "key.length" : 6,
+                          "key.offset" : 21203
+                        }
+                      ],
+                      "key.bodylength" : 186,
+                      "key.bodyoffset" : 21234,
+                      "key.kind" : "source.lang.swift.decl.var.instance",
+                      "key.length" : 211,
+                      "key.name" : "__typename",
+                      "key.namelength" : 10,
+                      "key.nameoffset" : 21214,
+                      "key.offset" : 21210,
+                      "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+                      "key.typename" : "String"
+                    },
+                    {
+                      "key.bodylength" : 30,
+                      "key.bodyoffset" : 21368,
+                      "key.kind" : "source.lang.swift.expr.call",
+                      "key.length" : 53,
+                      "key.name" : "resultMap.updateValue",
+                      "key.namelength" : 21,
+                      "key.nameoffset" : 21346,
+                      "key.offset" : 21346,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 8,
+                          "key.bodyoffset" : 21368,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 8,
+                          "key.namelength" : 0,
+                          "key.nameoffset" : 0,
+                          "key.offset" : 21368
+                        },
+                        {
+                          "key.bodylength" : 12,
+                          "key.bodyoffset" : 21386,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 20,
+                          "key.name" : "forKey",
+                          "key.namelength" : 6,
+                          "key.nameoffset" : 21378,
+                          "key.offset" : 21378
+                        }
+                      ]
+                    },
+                    {
+                      "key.accessibility" : "source.lang.swift.accessibility.public",
+                      "key.attributes" : [
+                        {
+                          "key.attribute" : "source.decl.attribute.public",
+                          "key.length" : 6,
+                          "key.offset" : 21475
+                        }
+                      ],
+                      "key.bodylength" : 227,
+                      "key.bodyoffset" : 21499,
+                      "key.doclength" : 36,
+                      "key.docoffset" : 21431,
+                      "key.kind" : "source.lang.swift.decl.var.instance",
+                      "key.length" : 245,
+                      "key.name" : "node",
+                      "key.namelength" : 4,
+                      "key.nameoffset" : 21486,
+                      "key.offset" : 21482,
+                      "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+                      "key.typename" : "Node?"
+                    },
+                    {
+                      "key.bodylength" : 27,
+                      "key.bodyoffset" : 21578,
+                      "key.kind" : "source.lang.swift.expr.call",
+                      "key.length" : 71,
+                      "key.name" : "(resultMap[\"node\"] as? ResultMap).flatMap",
+                      "key.namelength" : 41,
+                      "key.nameoffset" : 21535,
+                      "key.offset" : 21535,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 27,
+                          "key.bodyoffset" : 21578,
+                          "key.kind" : "source.lang.swift.expr.closure",
+                          "key.length" : 29,
+                          "key.namelength" : 0,
+                          "key.nameoffset" : 0,
+                          "key.offset" : 21577,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 19,
+                              "key.bodyoffset" : 21584,
+                              "key.kind" : "source.lang.swift.expr.call",
+                              "key.length" : 25,
+                              "key.name" : "Node",
+                              "key.namelength" : 4,
+                              "key.nameoffset" : 21579,
+                              "key.offset" : 21579,
+                              "key.substructure" : [
+                                {
+                                  "key.bodylength" : 2,
+                                  "key.bodyoffset" : 21601,
+                                  "key.kind" : "source.lang.swift.expr.argument",
+                                  "key.length" : 19,
+                                  "key.name" : "unsafeResultMap",
+                                  "key.namelength" : 15,
+                                  "key.nameoffset" : 21584,
+                                  "key.offset" : 21584
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key.bodylength" : 35,
+                      "key.bodyoffset" : 21669,
+                      "key.kind" : "source.lang.swift.expr.call",
+                      "key.length" : 58,
+                      "key.name" : "resultMap.updateValue",
+                      "key.namelength" : 21,
+                      "key.nameoffset" : 21647,
+                      "key.offset" : 21647,
+                      "key.substructure" : [
+                        {
+                          "key.bodylength" : 19,
+                          "key.bodyoffset" : 21669,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 19,
+                          "key.namelength" : 0,
+                          "key.nameoffset" : 0,
+                          "key.offset" : 21669
+                        },
+                        {
+                          "key.bodylength" : 6,
+                          "key.bodyoffset" : 21698,
+                          "key.kind" : "source.lang.swift.expr.argument",
+                          "key.length" : 14,
+                          "key.name" : "forKey",
+                          "key.namelength" : 6,
+                          "key.nameoffset" : 21690,
+                          "key.offset" : 21690
+                        }
+                      ]
+                    },
+                    {
+                      "key.accessibility" : "source.lang.swift.accessibility.public",
+                      "key.attributes" : [
+                        {
+                          "key.attribute" : "source.decl.attribute.public",
+                          "key.length" : 6,
+                          "key.offset" : 21737
+                        }
+                      ],
+                      "key.bodylength" : 1463,
+                      "key.bodyoffset" : 21778,
+                      "key.elements" : [
+                        {
+                          "key.kind" : "source.lang.swift.structure.elem.typeref",
+                          "key.length" : 19,
+                          "key.offset" : 21757
+                        }
+                      ],
+                      "key.inheritedtypes" : [
+                        {
+                          "key.name" : "GraphQLSelectionSet"
+                        }
+                      ],
+                      "key.kind" : "source.lang.swift.decl.struct",
+                      "key.length" : 1498,
+                      "key.name" : "Node",
+                      "key.namelength" : 4,
+                      "key.nameoffset" : 21751,
+                      "key.offset" : 21744,
+                      "key.substructure" : [
+                        {
+                          "key.accessibility" : "source.lang.swift.accessibility.public",
+                          "key.attributes" : [
+                            {
+                              "key.attribute" : "source.decl.attribute.public",
+                              "key.length" : 6,
+                              "key.offset" : 21789
+                            }
+                          ],
+                          "key.kind" : "source.lang.swift.decl.var.static",
+                          "key.length" : 48,
+                          "key.name" : "possibleTypes",
+                          "key.namelength" : 13,
+                          "key.nameoffset" : 21807,
+                          "key.offset" : 21796,
+                          "key.typename" : "[String]"
+                        },
+                        {
+                          "key.bodylength" : 9,
+                          "key.bodyoffset" : 21834,
+                          "key.elements" : [
+                            {
+                              "key.kind" : "source.lang.swift.structure.elem.expr",
+                              "key.length" : 9,
+                              "key.offset" : 21834
+                            }
+                          ],
+                          "key.kind" : "source.lang.swift.expr.array",
+                          "key.length" : 11,
+                          "key.namelength" : 0,
+                          "key.nameoffset" : 0,
+                          "key.offset" : 21833
+                        },
+                        {
+                          "key.accessibility" : "source.lang.swift.accessibility.public",
+                          "key.attributes" : [
+                            {
+                              "key.attribute" : "source.decl.attribute.public",
+                              "key.length" : 6,
+                              "key.offset" : 21856
+                            }
+                          ],
+                          "key.kind" : "source.lang.swift.decl.var.static",
+                          "key.length" : 270,
+                          "key.name" : "selections",
+                          "key.namelength" : 10,
+                          "key.nameoffset" : 21874,
+                          "key.offset" : 21863,
+                          "key.typename" : "[GraphQLSelection]"
+                        },
+                        {
+                          "key.bodylength" : 224,
+                          "key.bodyoffset" : 21908,
+                          "key.elements" : [
+                            {
+                              "key.kind" : "source.lang.swift.structure.elem.expr",
+                              "key.length" : 64,
+                              "key.offset" : 21921
+                            },
+                            {
+                              "key.kind" : "source.lang.swift.structure.elem.expr",
+                              "key.length" : 59,
+                              "key.offset" : 21999
+                            },
+                            {
+                              "key.kind" : "source.lang.swift.structure.elem.expr",
+                              "key.length" : 48,
+                              "key.offset" : 22072
+                            }
+                          ],
+                          "key.kind" : "source.lang.swift.expr.array",
+                          "key.length" : 226,
+                          "key.namelength" : 0,
+                          "key.nameoffset" : 0,
+                          "key.offset" : 21907,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 50,
+                              "key.bodyoffset" : 21934,
+                              "key.kind" : "source.lang.swift.expr.call",
+                              "key.length" : 64,
+                              "key.name" : "GraphQLField",
+                              "key.namelength" : 12,
+                              "key.nameoffset" : 21921,
+                              "key.offset" : 21921,
+                              "key.substructure" : [
+                                {
+                                  "key.bodylength" : 12,
+                                  "key.bodyoffset" : 21934,
+                                  "key.kind" : "source.lang.swift.expr.argument",
+                                  "key.length" : 12,
+                                  "key.namelength" : 0,
+                                  "key.nameoffset" : 0,
+                                  "key.offset" : 21934
+                                },
+                                {
+                                  "key.bodylength" : 30,
+                                  "key.bodyoffset" : 21954,
+                                  "key.kind" : "source.lang.swift.expr.argument",
+                                  "key.length" : 36,
+                                  "key.name" : "type",
+                                  "key.namelength" : 4,
+                                  "key.nameoffset" : 21948,
+                                  "key.offset" : 21948
+                                }
+                              ]
+                            },
+                            {
+                              "key.bodylength" : 45,
+                              "key.bodyoffset" : 22012,
+                              "key.kind" : "source.lang.swift.expr.call",
+                              "key.length" : 59,
+                              "key.name" : "GraphQLField",
+                              "key.namelength" : 12,
+                              "key.nameoffset" : 21999,
+                              "key.offset" : 21999,
+                              "key.substructure" : [
+                                {
+                                  "key.bodylength" : 4,
+                                  "key.bodyoffset" : 22012,
+                                  "key.kind" : "source.lang.swift.expr.argument",
+                                  "key.length" : 4,
+                                  "key.namelength" : 0,
+                                  "key.nameoffset" : 0,
+                                  "key.offset" : 22012
+                                },
+                                {
+                                  "key.bodylength" : 33,
+                                  "key.bodyoffset" : 22024,
+                                  "key.kind" : "source.lang.swift.expr.argument",
+                                  "key.length" : 39,
+                                  "key.name" : "type",
+                                  "key.namelength" : 4,
+                                  "key.nameoffset" : 22018,
+                                  "key.offset" : 22018
+                                }
+                              ]
+                            },
+                            {
+                              "key.bodylength" : 34,
+                              "key.bodyoffset" : 22085,
+                              "key.kind" : "source.lang.swift.expr.call",
+                              "key.length" : 48,
+                              "key.name" : "GraphQLField",
+                              "key.namelength" : 12,
+                              "key.nameoffset" : 22072,
+                              "key.offset" : 22072,
+                              "key.substructure" : [
+                                {
+                                  "key.bodylength" : 6,
+                                  "key.bodyoffset" : 22085,
+                                  "key.kind" : "source.lang.swift.expr.argument",
+                                  "key.length" : 6,
+                                  "key.namelength" : 0,
+                                  "key.nameoffset" : 0,
+                                  "key.offset" : 22085
+                                },
+                                {
+                                  "key.bodylength" : 20,
+                                  "key.bodyoffset" : 22099,
+                                  "key.kind" : "source.lang.swift.expr.argument",
+                                  "key.length" : 26,
+                                  "key.name" : "type",
+                                  "key.namelength" : 4,
+                                  "key.nameoffset" : 22093,
+                                  "key.offset" : 22093
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key.accessibility" : "source.lang.swift.accessibility.public",
+                          "key.attributes" : [
+                            {
+                              "key.attribute" : "source.decl.attribute.setter_access.private",
+                              "key.length" : 12,
+                              "key.offset" : 22152
+                            },
+                            {
+                              "key.attribute" : "source.decl.attribute.public",
+                              "key.length" : 6,
+                              "key.offset" : 22145
+                            }
+                          ],
+                          "key.kind" : "source.lang.swift.decl.var.instance",
+                          "key.length" : 24,
+                          "key.name" : "resultMap",
+                          "key.namelength" : 9,
+                          "key.nameoffset" : 22169,
+                          "key.offset" : 22165,
+                          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+                          "key.typename" : "ResultMap"
+                        },
+                        {
+                          "key.accessibility" : "source.lang.swift.accessibility.public",
+                          "key.attributes" : [
+                            {
+                              "key.attribute" : "source.decl.attribute.public",
+                              "key.length" : 6,
+                              "key.offset" : 22201
+                            }
+                          ],
+                          "key.bodylength" : 56,
+                          "key.bodyoffset" : 22242,
+                          "key.kind" : "source.lang.swift.decl.function.method.instance",
+                          "key.length" : 91,
+                          "key.name" : "init(unsafeResultMap:)",
+                          "key.namelength" : 32,
+                          "key.nameoffset" : 22208,
+                          "key.offset" : 22208,
+                          "key.substructure" : [
+                            {
+                              "key.kind" : "source.lang.swift.decl.var.parameter",
+                              "key.length" : 26,
+                              "key.name" : "unsafeResultMap",
+                              "key.namelength" : 15,
+                              "key.nameoffset" : 22213,
+                              "key.offset" : 22213,
+                              "key.typename" : "ResultMap"
+                            }
+                          ]
+                        },
+                        {
+                          "key.accessibility" : "source.lang.swift.accessibility.public",
+                          "key.attributes" : [
+                            {
+                              "key.attribute" : "source.decl.attribute.public",
+                              "key.length" : 6,
+                              "key.offset" : 22311
+                            }
+                          ],
+                          "key.bodylength" : 101,
+                          "key.bodyoffset" : 22360,
+                          "key.kind" : "source.lang.swift.decl.function.method.instance",
+                          "key.length" : 144,
+                          "key.name" : "init(id:name:)",
+                          "key.namelength" : 40,
+                          "key.nameoffset" : 22318,
+                          "key.offset" : 22318,
+                          "key.substructure" : [
+                            {
+                              "key.kind" : "source.lang.swift.decl.var.parameter",
+                              "key.length" : 13,
+                              "key.name" : "id",
+                              "key.namelength" : 2,
+                              "key.nameoffset" : 22323,
+                              "key.offset" : 22323,
+                              "key.typename" : "GraphQLID"
+                            },
+                            {
+                              "key.kind" : "source.lang.swift.decl.var.parameter",
+                              "key.length" : 19,
+                              "key.name" : "name",
+                              "key.namelength" : 4,
+                              "key.nameoffset" : 22338,
+                              "key.offset" : 22338,
+                              "key.typename" : "String?"
+                            },
+                            {
+                              "key.bodylength" : 66,
+                              "key.bodyoffset" : 22383,
+                              "key.kind" : "source.lang.swift.expr.call",
+                              "key.length" : 77,
+                              "key.name" : "self.init",
+                              "key.namelength" : 9,
+                              "key.nameoffset" : 22373,
+                              "key.offset" : 22373,
+                              "key.substructure" : [
+                                {
+                                  "key.bodylength" : 49,
+                                  "key.bodyoffset" : 22400,
+                                  "key.kind" : "source.lang.swift.expr.argument",
+                                  "key.length" : 66,
+                                  "key.name" : "unsafeResultMap",
+                                  "key.namelength" : 15,
+                                  "key.nameoffset" : 22383,
+                                  "key.offset" : 22383,
+                                  "key.substructure" : [
+                                    {
+                                      "key.bodylength" : 47,
+                                      "key.bodyoffset" : 22401,
+                                      "key.elements" : [
+                                        {
+                                          "key.kind" : "source.lang.swift.structure.elem.expr",
+                                          "key.length" : 12,
+                                          "key.offset" : 22401
+                                        },
+                                        {
+                                          "key.kind" : "source.lang.swift.structure.elem.expr",
+                                          "key.length" : 9,
+                                          "key.offset" : 22415
+                                        },
+                                        {
+                                          "key.kind" : "source.lang.swift.structure.elem.expr",
+                                          "key.length" : 4,
+                                          "key.offset" : 22426
+                                        },
+                                        {
+                                          "key.kind" : "source.lang.swift.structure.elem.expr",
+                                          "key.length" : 2,
+                                          "key.offset" : 22432
+                                        },
+                                        {
+                                          "key.kind" : "source.lang.swift.structure.elem.expr",
+                                          "key.length" : 6,
+                                          "key.offset" : 22436
+                                        },
+                                        {
+                                          "key.kind" : "source.lang.swift.structure.elem.expr",
+                                          "key.length" : 4,
+                                          "key.offset" : 22444
+                                        }
+                                      ],
+                                      "key.kind" : "source.lang.swift.expr.dictionary",
+                                      "key.length" : 49,
+                                      "key.namelength" : 0,
+                                      "key.nameoffset" : 0,
+                                      "key.offset" : 22400
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key.accessibility" : "source.lang.swift.accessibility.public",
+                          "key.attributes" : [
+                            {
+                              "key.attribute" : "source.decl.attribute.public",
+                              "key.length" : 6,
+                              "key.offset" : 22474
+                            }
+                          ],
+                          "key.bodylength" : 200,
+                          "key.bodyoffset" : 22505,
+                          "key.kind" : "source.lang.swift.decl.var.instance",
+                          "key.length" : 225,
+                          "key.name" : "__typename",
+                          "key.namelength" : 10,
+                          "key.nameoffset" : 22485,
+                          "key.offset" : 22481,
+                          "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+                          "key.typename" : "String"
+                        },
+                        {
+                          "key.bodylength" : 30,
+                          "key.bodyoffset" : 22649,
+                          "key.kind" : "source.lang.swift.expr.call",
+                          "key.length" : 53,
+                          "key.name" : "resultMap.updateValue",
+                          "key.namelength" : 21,
+                          "key.nameoffset" : 22627,
+                          "key.offset" : 22627,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 8,
+                              "key.bodyoffset" : 22649,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 8,
+                              "key.namelength" : 0,
+                              "key.nameoffset" : 0,
+                              "key.offset" : 22649
+                            },
+                            {
+                              "key.bodylength" : 12,
+                              "key.bodyoffset" : 22667,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 20,
+                              "key.name" : "forKey",
+                              "key.namelength" : 6,
+                              "key.nameoffset" : 22659,
+                              "key.offset" : 22659
+                            }
+                          ]
+                        },
+                        {
+                          "key.accessibility" : "source.lang.swift.accessibility.public",
+                          "key.attributes" : [
+                            {
+                              "key.attribute" : "source.decl.attribute.public",
+                              "key.length" : 6,
+                              "key.offset" : 22752
+                            }
+                          ],
+                          "key.bodylength" : 187,
+                          "key.bodyoffset" : 22778,
+                          "key.doclength" : 24,
+                          "key.docoffset" : 22718,
+                          "key.kind" : "source.lang.swift.decl.var.instance",
+                          "key.length" : 207,
+                          "key.name" : "id",
+                          "key.namelength" : 2,
+                          "key.nameoffset" : 22763,
+                          "key.offset" : 22759,
+                          "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+                          "key.typename" : "GraphQLID"
+                        },
+                        {
+                          "key.bodylength" : 22,
+                          "key.bodyoffset" : 22917,
+                          "key.kind" : "source.lang.swift.expr.call",
+                          "key.length" : 45,
+                          "key.name" : "resultMap.updateValue",
+                          "key.namelength" : 21,
+                          "key.nameoffset" : 22895,
+                          "key.offset" : 22895,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 8,
+                              "key.bodyoffset" : 22917,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 8,
+                              "key.namelength" : 0,
+                              "key.nameoffset" : 0,
+                              "key.offset" : 22917
+                            },
+                            {
+                              "key.bodylength" : 4,
+                              "key.bodyoffset" : 22935,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 12,
+                              "key.name" : "forKey",
+                              "key.namelength" : 6,
+                              "key.nameoffset" : 22927,
+                              "key.offset" : 22927
+                            }
+                          ]
+                        },
+                        {
+                          "key.accessibility" : "source.lang.swift.accessibility.public",
+                          "key.attributes" : [
+                            {
+                              "key.attribute" : "source.decl.attribute.public",
+                              "key.length" : 6,
+                              "key.offset" : 23018
+                            }
+                          ],
+                          "key.bodylength" : 187,
+                          "key.bodyoffset" : 23044,
+                          "key.doclength" : 30,
+                          "key.docoffset" : 22978,
+                          "key.kind" : "source.lang.swift.decl.var.instance",
+                          "key.length" : 207,
+                          "key.name" : "name",
+                          "key.namelength" : 4,
+                          "key.nameoffset" : 23029,
+                          "key.offset" : 23025,
+                          "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+                          "key.typename" : "String?"
+                        },
+                        {
+                          "key.bodylength" : 24,
+                          "key.bodyoffset" : 23181,
+                          "key.kind" : "source.lang.swift.expr.call",
+                          "key.length" : 47,
+                          "key.name" : "resultMap.updateValue",
+                          "key.namelength" : 21,
+                          "key.nameoffset" : 23159,
+                          "key.offset" : 23159,
+                          "key.substructure" : [
+                            {
+                              "key.bodylength" : 8,
+                              "key.bodyoffset" : 23181,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 8,
+                              "key.namelength" : 0,
+                              "key.nameoffset" : 0,
+                              "key.offset" : 23181
+                            },
+                            {
+                              "key.bodylength" : 6,
+                              "key.bodyoffset" : 23199,
+                              "key.kind" : "source.lang.swift.expr.argument",
+                              "key.length" : 14,
+                              "key.name" : "forKey",
+                              "key.namelength" : 6,
+                              "key.nameoffset" : 23191,
+                              "key.offset" : 23191
                             }
                           ]
                         }

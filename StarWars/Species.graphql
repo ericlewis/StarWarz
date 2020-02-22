@@ -1,0 +1,11 @@
+query Species {
+    allSpecies {
+        edges {
+          node {
+            id
+            name
+          }
+        }
+    }
+}
+

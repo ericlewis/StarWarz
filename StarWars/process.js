@@ -6,12 +6,8 @@ const kKind = "key.kind"
 const struct = "source.lang.swift.decl.struct"
 const clas = "source.lang.swift.decl.class"
 const variable = "source.lang.swift.decl.var.instance"
-const util = require('util');
-const exec = util.promisify(require('child_process').exec);
 
-(async () => {
-    await exec('sourcekitten structure --file API.swift > output.json');
-    const classes = output[kSubstructure]
+const classes = output[kSubstructure]
 
     function process(item) {
         if (item[kKind] === struct || item[kKind] === clas) {
@@ -49,13 +45,12 @@ const exec = util.promisify(require('child_process').exec);
     let idExtension = ""
     hasIds.forEach(o => {
         idExtension += `
-    extension ${o}: Identifiable {
-    }
+extension ${o}: Identifiable {
+}
         `
     })
     
     const fs = require('fs')
-    fs.writeFile('API+Ext.swift', idExtension, (err) => { 
+    fs.writeFile('API+Ext.swift', "// Generated Code, do not touch\n" + idExtension, (err) => { 
         
     })
-})()
