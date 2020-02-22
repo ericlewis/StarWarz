@@ -7,17 +7,10 @@ extension PeopleQuery.Data {
     }
 }
 
-extension PeopleQuery.Data.AllPerson.Edge.Node: Identifiable {
-}
-
-
 extension PlanetsQuery.Data {
     var flattenedEdges: [Self.AllPlanet.Edge.Node] {
         allPlanets?.edges?.compactMap { $0?.node } ?? []
     }
-}
-
-extension PlanetsQuery.Data.AllPlanet.Edge.Node: Identifiable {
 }
 
 struct PeopleIteratedView: View {
@@ -56,9 +49,6 @@ extension FilmsQuery.Data {
     var flattenedEdges: [Self.AllFilm.Edge.Node] {
         allFilms?.edges?.compactMap { $0?.node } ?? []
     }
-}
-
-extension FilmsQuery.Data.AllFilm.Edge.Node: Identifiable {
 }
 
 struct FilmsIteratedView: View {
